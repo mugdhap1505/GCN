@@ -41,6 +41,8 @@ It is a qualitative metric that evaluates the importance of the scientific docum
 
 ### Network Visualization:
 
+Tool used : Gephi 
+
  <p align="center">
     <img src="/Images/Picture2.png" alt="Image" width="800" height="400" />
 </p>
