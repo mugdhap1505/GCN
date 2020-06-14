@@ -8,6 +8,7 @@ various topics which can affect the decision making and ranking systems.
  <p align="center">
     <img src="/Images/Picture1.png" alt="Image" width="400" height="400" />
 </p>
+
 ## Objective 
 1. To find the existence of automated agents in the academic related twitter accounts.
 2. To analyze the behavior of automated agents and their classification over scientific documents of Twitter.
