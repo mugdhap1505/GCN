@@ -92,3 +92,7 @@ obtained through centrality measures.
 2. The train test split is set to 70:30.
 3. The training accuracy results to 72.5%
 4. Testing accuracy accounts to 68%
+
+<p align="center">
+    <img src="/Images/Picture7.png" alt="Image" width="600" height="400" />
+</p>
