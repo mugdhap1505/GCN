@@ -49,7 +49,8 @@ It is a qualitative metric that evaluates the importance of the scientific docum
 Information about the relative importance of nodes and edges in a graph can be
 obtained through centrality measures.
 
-### Centrality: Centrality is the measure of importance of a node in a network.
+### Centrality: 
+Centrality is the measure of importance of a node in a network.
 
 ### Centrality Measures:
 1. Degree Centrality.
@@ -62,7 +63,14 @@ obtained through centrality measures.
 2. Degree of a node is the sum of incoming and outgoing edges of a node.
 3. It is one of the simplest centrality measures.
 
---picture 
+<p align="center">
+    <img src="/Images/Picture3.png" alt="Image" width="600" height="400" />
+</p> 
+
+
+<p align="center">
+    <img src="/Images/Picture4.png" alt="Image" width="600" height="400" />
+</p> 
 
 ## EigenVector Centrality:
 1. Eigenvector centrality measures a node’s importance while considering the importance of its neighbors.
@@ -75,7 +83,7 @@ obtained through centrality measures.
 3. It is highly known that most of the online social networks follow power law. Our network also follows the same. There are 13 major communities of the network.
 4. We found that each community contains bots, which are actively involved in disseminating information across the network.
 
-## Graph Convolutional Networks (GCNs)
+## Graph Convolutional Networks (GCNs):
 1. We observed that bots exist in each community and spread across the network.
 2. This observation gives up hope to train a GCN model that distinguish between human and bot.
 3. Since GCN learns the local and global positions of nodes. We can adopt a semi-supervised learning model to train on the labeled data.
