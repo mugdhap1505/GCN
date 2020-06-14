@@ -4,8 +4,10 @@
 An internet bot is an automated software application which can run any range of tasks respectively.
 Social bots interact with users with a purpose to generate content that promotes a particular viewpoint.
 Bot accounts are problematic because they can manipulate information, and promote unverified information, which can adversely affect public opinion on
-various topics which can affect the decision making and ranking systems.
-
+various topics which can affect the decision making and ranking systems. 
+ <p align="center">
+    <img src="/Images/Picture1.png" alt="Image" width="400" height="400" />
+</p>
 ## Objective 
 1. To find the existence of automated agents in the academic related twitter accounts.
 2. To analyze the behavior of automated agents and their classification over scientific documents of Twitter.
@@ -38,7 +40,10 @@ It is a qualitative metric that evaluates the importance of the scientific docum
 
 ### Network Visualization:
 
---picture
+ <p align="center">
+    <img src="/Images/Picture2.png" alt="Image" width="800" height="400" />
+</p>
+
 
 ### Network Analysis:
 Information about the relative importance of nodes and edges in a graph can be
@@ -75,21 +80,15 @@ obtained through centrality measures.
 2. This observation gives up hope to train a GCN model that distinguish between human and bot.
 3. Since GCN learns the local and global positions of nodes. We can adopt a semi-supervised learning model to train on the labeled data.
 4. GCNs involves two main steps the aggregation and the model update
- 
- 
- picture 
+![Before After Previews of 12.SPE](/Images/Picture5.png?raw=true "Network visualization") 
 5. The first equation is the aggregation step that aggregates feature vectors from all the neighbor nodes. The second equation is the model update step.
 
-
-
-
-[icture
-
+ <p align="center">
+    <img src="/Images/Picture6.png" alt="Image" width="600" height="400" />
+</p>
 
 ## Experimental setup and results:
 1. Learning rate is set to 0.01 and the number of epochs are set to 50.
 2. The train test split is set to 70:30.
 3. The training accuracy results to 72.5%
 4. Testing accuracy accounts to 68%
-
-picture 
